@@ -1,0 +1,438 @@
+,ProjectID,UC,TransTypes,UCType,Cfp,TitleTokens
+0,P01,UC2-1-1,C|D|R|U,C|D|R|U,16,manage faculties crud
+1,P01,UC2-1-10,DL|L|R,L,27,assign science olympiads major specialty edit delete
+2,P01,UC2-1-11,CS|R,CS,7,manage ranking algorithms
+3,P01,UC2-1-13,C|D|R|U,C|D|R|U,17,manage exams crud
+4,P01,UC2-1-14,DL|L|R,L,27,manage assignments exams majors specialties
+5,P01,UC2-1-16,C|D|R|U,C|D|R|U,18,manage courses crud
+6,P01,UC2-1-18,DL|L|R,L,27,manage assignments courses majors specialties
+7,P01,UC2-1-19,C|D|R|U|U,C|D|R|U,25,manage grading scales crud
+8,P01,UC2-1-2,C|D|R|U,C|D|R|U,20,manage admissions crud
+9,P01,UC2-1-20,L|R,L,18,manage assignments ranking algorithms majors specialties
+10,P01,UC2-1-3,C|D|R|U,C|D|R|U,17,manage majors specialties crud
+11,P01,UC2-1-4,DL|L,L,13,manage assignments majors specialties admissions
+12,P01,UC2-1-5,C|D|R|U,C|D|R|U,19,manage available languages courses crud
+13,P01,UC2-1-8,DL|L|R,L,27,manage assignments language courses majors specialities
+14,P01,UC2-1-9,C|D|U,C|D|R|U,14,manage science olympiads crud
+15,P01,UC2-2-11,C|D|DL|L,C|D|R|U,36,modify candidate 's payments
+16,P01,UC2-2-12,T,T,7,import payments banking system
+17,P01,UC2-2-17,DR|R,R,19,view candidate 's data
+18,P01,UC2-2-8,C|R,C,4,add candidate
+19,P01,UC2-2-9,U,U,15,modify candidate 's data
+20,P01,UC2-3-4,C|DR|U,U,25,enter exam grades
+21,P01,UC2-3-7,DL|L|L,L,33,assign candidates exam rooms
+22,P01,UC2-4-1,R,R,9,view candidates ' ranking major specialization classification
+23,P01,UC2-4-10,CS|R,R,18,view list unclassified candidates perform additional classification
+24,P01,UC2-4-2,CS|CS|CS|R,R,21,view list classified candidates major specialty perform classification
+25,P01,UC2-4-6,CIA,CIA,10,run central classification algorithm
+26,P01,UC2-4-7,CS,CS,4,mark resignation classification
+27,P01,UC2-4-8,CIA,CIA,9,recalculate candidates points classification
+28,P01,UC2-4-9,C|R,C,13,define limits classification acceptance reserve
+29,P01,UC2-5-1,CS,CS,8,mark delivery documents
+30,P01,UC2-5-10,CS|R,CS,20,browse list candidates admitted perform additional classification
+31,P01,UC2-5-4,CS|CS|CS|R|R,CS,40,accept candidates
+32,P01,UC2-5-7,CS|R,CS,14,process appeal
+33,P01,UC2-5-8,CS,CS,9,mark resignation acceptance
+34,P01,UC2-5-9,CS,CS,6,mark reception documents
+35,P01,UC2-6-5,T,T,12,export students socrates system
+36,P01,UC2-6-6,U,U,11,assign student identifiers
+37,P01,UC3-4,D,D,6,remove accounts
+38,P01,UC3-7,R,R,4,browse candidate 's events history
+39,P01,UC4-1,C|D|L|U,C|D|R|U,28,manage users crud
+40,P01,UC4-2,C|D|U,C|D|R|U,14,manage roles crud
+41,P01,UC4-3,U,U,6,change user password
+42,P02,AA_UC1,R|T|U,T,18,transfer admissions system
+43,P02,AA_UC2,C|L,C,12,define language course
+44,P02,AA_UC3,L,L,12,assign language course major
+45,P02,AA_UC4,C,C,4,add science olympiad
+46,P02,AA_UC5,L,L,12,assign science olympiad major
+47,P02,AA_UC6,C|L|R|U,C,22,define final exam subjects
+48,P02,AA_UC7,L,L,11,assign final exam subjects major
+49,P02,AA_UC8,R|U,U,12,define values admission fees
+50,P02,PP_UC1,C,C,4,register system
+51,P02,PP_UC2,CO,CO,4,log system
+52,P02,PP_UC3,C,C,10,provide personal data
+53,P02,PP_UC4,C,C,20,provide education data
+54,P02,PP_UC5,L|R,L,19,select major
+55,P02,PP_UC6,L,L,11,assign fee major
+56,P02,PP_UC7,DL,DL,7,remove selected major
+57,P02,PP_UC8,R,R,19,view education data major
+58,P02,PP_UC9,R,R,14,print application
+59,P06,UC1.1,C,C,6,creating client information database
+60,P06,UC1.2,U,U,6,modifying client information database
+61,P06,UC1.3,D,D,6,deleting client information database
+62,P06,UC1.4,C|R,C,9,creating customer 's representative information contacts
+63,P06,UC1.5,U,U,6,modifying customer 's representative information contacts
+64,P06,UC1.6,D,D,6,deleting customer 's representative information contacts
+65,P06,UC2.1,C,C,5,creating product service category
+66,P06,UC2.10,C,C,4,creating product service
+67,P06,UC2.11,U,U,6,modifying product service
+68,P06,UC2.12,D,D,8,deleting product service
+69,P06,UC2.13,C,C,7,moving copying product service
+70,P06,UC2.2,U,U,6,modifying product service category
+71,P06,UC2.3,D,D,6,deleting product service category
+72,P06,UC2.4,C,C,6,creating product service catalog
+73,P06,UC2.5,D,D,4,deleting product service catalog
+74,P06,UC2.6,C,C,5,creating product service subdirectory
+75,P06,UC2.7,U,U,6,modifying product service subdirectory
+76,P06,UC2.8,D,D,4,deleting product service subdirectory
+77,P06,UC2.9,U,U,6,copying moving product service subdirectory
+78,P06,UC4.1,DR|R,R,6,looking clients ' table
+79,P06,UC4.2,DR|R,R,6,looking client representatives contacts
+80,P06,UC4.3,R|R|R,R,9,looking products services catalog
+81,P06,UC4.4,DR|R,DR,6,searching product service
+82,P06,UC5.1,U,U,6,modifying access policy
+83,P06,UC5.2,U,U,10,modifying users rights
+84,P06,UC5.3,CS,CS,6,unlocking locked data
+85,P09,UC1,C|D|R|U,C|D|R|U,16,define admission foreign students crud
+86,P09,UC12,CS|R,CS,8,mark delivery documents
+87,P09,UC13,R|R,R,10,prepare lists admission interview
+88,P09,UC17,CS|R|R,CS,14,accept candidate attend interview
+89,P09,UC18,CS|R,CS,8,add information recognition diploma
+90,P09,UC19,CS|R|R,CS,14,enter information acceptance
+91,P09,UC2,C|D|R|U,C|D|R|U,17,add majors available foreign students crud
+92,P09,UC4,C,C,5,register system
+93,P09,UC5,CO,CO,4,log system
+94,P09,UC6,C|D|DL|L|U,C,23,prepare application
+95,P09,UC7,R|R,R,11,send application
+96,P09,UC8,R,R,5,view status payments
+97,P09,UC9,R,R,3,view candidate 's data
+98,P15,UC1,CO,CO,4,pti head board member login
+99,P15,UC10,CS,CS,5,confirmation fee
+100,P15,UC11,T,T,6,import database
+101,P15,UC13,U,U,7,pti member modification
+102,P15,UC14,C,C,6,register new user www
+103,P15,UC15,C,C,3,add news
+104,P15,UC17,DR,DR,3,search members
+105,P15,UC2,DR,DR,4,generate list chosen members
+106,P15,UC3,R|R|R,R,21,print documents
+107,P15,UC4,R,R,6,addressing envelopes
+108,P15,UC5,AR,AR,5,post group message
+109,P15,UC6,C,C,5,add new member
+110,P15,UC7,R|U,U,7,modify member
+111,P15,UC8,D,D,4,delete member
+112,P17,UC1,C,C,12,add object
+113,P17,UC2,L,L,16,edit object data
+114,P17,UC5,DR,DR,5,getting list publications
+115,P17,UC6,DR,DR,8,getting list citations
+116,P17,UC7,L,L,7,cleaning data magazine magazine
+117,P17,UC8,L,L,6,cleaning data publication publication
+118,P18,Adm_UC1,C,C,9,enter employee system
+119,P18,Adm_UC2,C|R,C,8,enter students system
+120,P18,Adm_UC3,C,C,5,enter institute system
+121,P18,Adm_UC4,C|R,C,8,enter laboratory system
+122,P18,Adm_UC5,C,C,3,enter faculty system
+123,P18,Adm_UC6,C,C,4,enter major system
+124,P18,Adm_UC7,CS|R,CS,6,assign leader laboratory
+125,P18,Kier_UC2,CS,CS,6,assign role supervisor employee
+126,P18,Kier_UC3,C,C,4,add comment thesis proposal
+127,P18,Kier_UC4,CS,CS,2,accept reject thesis proposal
+128,P18,P_UC1,C,C,4,add thesis proposal
+129,P18,P_UC2,U,U,5,modify thesis proposal
+130,P18,P_UC3,CS|DL|L|R,L,18,select team
+131,P18,Prod_UC1,CS,CS,3,accept list theses
+132,P18,Stud_UC1,AR|C|D|DL|L,C,16,create manage team
+133,P18,Stud_UC2,AR,AR,4,apply team
+134,P18,Stud_UC3,L,L,4,accept invitation join team
+135,P18,Stud_UC4,AR,AR,7,application team thesis proposal
+136,P05,UC1,R|T,T,18,download list students
+137,P05,UC2,L|R,L,11,add student protocol
+138,P05,UC3,R|R,R,17,access archival protocols
+139,P05,UC4,AR,AR,4,inform incomplete protocols
+140,P05,UC18,U,U,5,manage commission exams
+141,P05,UC20,DR,DR,6,a quick search student archival grades
+142,P05,UC5,R,R,10,view reports
+143,P05,UC6,R,R,4,view protocol 's status
+144,P05,UC7,T,T,11,extend export protocols
+145,P05,UC8,T,T,10,extend import protocols support ics students
+146,P05,UC9,U,U,4,set deadline completing protocols
+147,P05,UC13,U,U,7,edit notification messages
+148,P05,UC14,R|U,C|D|R|U,11,view modify protocol
+149,P05,UC15,DR|L,DR,9,search filter list protocols
+150,P05,UC16,R,R,7,print student exam card
+151,P05,UC17,CS,CS,5,approval student added protocol
+152,P05,UC10,AR,AR,4,notify incorrect grades
+153,P05,UC11,R,R,4,view grades
+154,P05,UC12,AR,AR,4,inform new grades
+155,P07,UC_01,L,L,8,assign task given performer
+156,P07,UC_02,CS|R,CS,12,confirm reject task
+157,P07,UC_03,L,L,8,inform assignment task ' outside system '
+158,P07,UC_04,CS,CS,8,accept task proposal performer
+159,P07,UC_05,CS,CS,6,inform completion task
+160,P07,UC_06,CS|R,CS,11,settle task
+161,P07,UC_15,C|D|R|U,C|D|R|U,24,manage data
+162,P07,UC_09,DR,DR,10,generate report
+163,P07,UC_10,C,C,5,copy task
+164,P07,UC_11,D,D,3,withdraw task
+165,P07,UC_12,CO,CO,3,log system
+166,P07,UC_13,L,L,7,modify list employees belonging organizational unit
+167,P07,UC_16,DR,DR,8,view workload employees
+168,P14,UC1,C,C,3,add kek
+169,P14,UC2,L,L,8,bind kek oek
+170,P14,UC3,R,R,6,report bindings oeks keks
+171,P14,UC4,C,C,3,add module
+172,P14,UC5,L,L,8,bind kek module
+173,P14,UC6,R,R,7,report bindings keks modules
+174,P14,UC7,DL|L,L,13,edit plan studies
+175,P14,UC8,R,R,10,report plan studies
+176,P14,UC10,C,C,3,add admission
+177,P14,UCA1,C,C,3,add oek
+178,P14,UCA2,C,C,3,add major
+179,P14,UCA3,DL|DR|L,L,15,edit permissions
+180,P14,UCA4,C,C,3,add faculty
+181,P13,NC01,C|R,C,11,add notification
+182,P13,NC02,U,U,9,edit notification
+183,P13,NC03,D,D,6,delete notification
+184,P13,NC04,C|R,C,11,define type notification
+185,P13,NC05,U,U,5,edit type notification
+186,P13,NC06,D,D,5,delete type notification
+187,P13,NC07,AR,AR,8,send request confirm notifications
+188,P13,RC01,DR|R,DR,13,generate report
+189,P13,AC01,C|L,C,10,automatically add user
+190,P13,AC06,U,U,6,edit information field
+191,P13,AC07,D,D,4,delete information field
+192,P13,OC03,CO,CO,3,log system
+193,P11,UC1-UC2,DL|L|R,L,15,assign tutor course
+194,P11,UC3,C,C,4,add tutor
+195,P11,UC7,R|T,T,13,acquire list courses brokers
+196,P11,UC8,C,C,9,import assignments previous year
+197,P11,UC9-UC10,L|R,L,12,assign subjects brokers
+198,P11,UC11,R,R,9,generate load sheet
+199,P11,UC12,CO,CO,3,login
+200,P11,UC13,U,U,6,configure structure university
+201,P11,UC14,C,C,4,add course
+202,P11,UC15,U,U,6,configure warning colors
+203,P08,UC01,C,C,7,create questionnaire
+204,P08,UC02,D|R|U,C|D|R|U,13,edit questionnaire
+205,P08,UC03,L,L,12,create survey
+206,P08,UC05,L|R,L,12,provide answers
+207,P08,UC06,R,R,9,check results
+208,P08,UC07,L,L,9,create group respondents
+209,P08,UC08,DL|U,U,13,edit group respondents
+210,P08,UC09,CO,CO,3,log system
+211,P10,A-UC1,T,T,5,add author
+212,P10,A-UC2,C,C,4,add organization
+213,P10,A-UC3,L|R,L,12,manage hierarchy profiles
+214,P10,A-UC4,R,DR,7,create report
+215,P10,S-UC1-UC2,DR|DR,DR,16,view statistics
+216,P10,EN-UC4,T,T,5,import new lists
+217,P10,EN-UC5,R|T,T,10,import export synonyms
+218,P10,EN-UC6,R,R,3,view logs engine tasks
+219,P10,EN-UC7,CIA,CIA,8,update statistics
+220,P16,UC1,DR,DR,10,generate report alumni
+221,P16,UC2,C,C,4,add group
+222,P16,UC3,R|U,U,6,change group
+223,P16,UC4,D,D,4,delete group
+224,P16,UC5,L|R,L,10,add term group
+225,P16,UC6,DL|R|R,DL,11,delete term group
+226,P16,UC7,T,T,4,import alumni
+227,P03,PU-SCMS-ADM-1,C|R|U,C|D|R|U,13,add new organization edit existing organization
+228,P03,PU-SCMS-ADM-3,D|R,D,8,delete existing organization
+229,P03,PU-SCMS-ADM-7,C|U,C|D|R|U,18,add new authorization client application edit authorization client application
+230,P03,PU-SCMS-ADM-9,CS|R,CS,6,deactivate authorization client application
+231,P03,PU-SCMS-ADM-10 ,C|U,C|D|R|U,10,add edit role scms
+232,P03,PU-SCMS-ADM-12,D|R,D,8,remove existing role
+233,P03,PU-SMCS-ZK-1,C|R|U,C|D|R|U,12,add new type card edit existing type card
+234,P03,PU-SMCS-ZK-3 ,D|R,D,7,delete type card
+235,P03,PU-SMCS-ZK-4,C|R|R|U,C|D|R|U,17,add set keys card type edit set keys card type
+236,P03,PU-SMCS-ZK-6,D|R|R,D,12,delete set keys card type
+237,P03,PU-SMCS-ZK-7 ,C|R|U,C|D|R|U,14,add application cards edit application cards
+238,P03,PU-SMCS-ZK-9,CS|R,CS,7,block application cards
+239,P03,PU-SCMS-ZK-10 ,L|L|R,L,43,add card profile edit card profile
+240,P03,PU-SCMS-ZK-12 ,CS|R,CS,7,block usage card profile
+241,P03,PU-SCMS-ZK-13,D|R|R,D,10,delete atr codes
+242,P03,PU-SCMS-ZK-14,C|R|R|U,C|D|R|U,14,add edit atr codes
+243,P03,PU-SCMS-ZK-16,D|R,D,8,delete method diversification
+244,P03,PU-SCMS-ZK-17 ,C|R|U,C|D|R|U,13,add method diversification edit method diversification
+245,P03,PU-SCMS-ZK-19,L|L|R,L,32,define new theme card edit theme card
+246,P03,PU-SCMS-ZK-22,C|R|U,C|D|R|U,13,add information personalization plugin edit information personalization plugin
+247,P03,PU-SCMS-ZK-24,D|R,D,8,delete information personalization plugin
+248,P03,PU-AK-1,CO,CO,3,log system
+249,P03,PU-AK-ZL-1,R|R,R,6,browse cards active ordered withdrawn
+250,P03,PU-AK-ZL-2,L|R,L,14,order issuing new card edit order issuing new card
+251,P03,PU-AK-ZL-4,R,R,3,view card
+252,P03,PU-AK-ZL-5,D|R,D,7,delete issue card order
+253,P03,PU-AK-ZL-6,L,L,6,order issuing card duplicate
+254,P03,PU-AK-ZL-7,CS,CS,4,block card
+255,P03,PU-AK-ZL-8,CS,CS,4,unblock card
+256,P03,PU-AK-ADM-1,R|U,U,6,modify authorization key client application
+257,P03,PU-AK-PF-1,T,T,7,synchronize list employees
+258,P03,PU-AK-PF-4,C|R|U,C|D|R|U,12,add entry glossary edit entry glossary
+259,P03,PU-AK-PF-2,R|U,U,9,add user photo change user photo
+260,P03,PU-AK-PF-5,D|R,D,7,delete glossary entry
+261,P03,PU-AK-PF-6,R|R,R,6,view list employees
+262,P03,PU-AK-PF-8,L|R,L,12,install uninstall card profile
+263,P04,WF-SCMS2-MCP-ADM-12,R,R,4,display orders progress
+264,P04,WF-SCMS2-MCP-ADM-13,R,R,4,generate preview card print
+265,P04,WF-SCMS2-MCP-ADM-14,R,R,4,order card print
+266,P04,WF-SCMS2-MCP-ADM-15,CS,CS,4,inform ready cards
+267,P04,WF-SCMS2-MCP-ADM-7,R|R|R|R|R,R,22,display history orders
+268,P04,WF-SCMS2-MCP-ADM-8,DR,DR,4,search history orders
+269,P04,WF-SCMS2-WCO-ADM-1,C,C,3,prepare order template
+270,P04,WF-SCMS2-WCO-ADM-3,L|R,L,15,order issuing batch cards based order template
+271,P04,WF-SCMS2-WCO-ADM-4,CS|R,CS,11,install certificate card
+272,P04,WF-SCMS2-WCO-ADM-6,DR,DR,12,generate report
+273,P04,WF-SCMS2-WCO-ADM-7,CS|R,CS,7,change record cards
+274,P04,WF-SCMS2-WCO-ADM-8,DL|R|R|U,C|D|R|U,17,view orders
+275,P04,WF-SCMS2-WCO-ADM-9,R|R,R,6,notifications desktop swdpi system user dashboard
+276,P04,WF-SCMS2-WCO-ADM-10,CS,CS,6,cancel order
+277,P04,WF-SCMS2-WCO-ADM-11,CS,CS,6,change status order
+278,P04,WF-SCMS2-WCO-ADM-12,CS,CS,6,acknowledgment order reception
+279,P04,WF-SCMS2-MCP-1,CO,CO,4,log system
+280,P04,WF-SCMS2-MCP-USER-9,R|T,T,7,enter data
+281,P04,WF-SCMS2-MCP-USER-10,L|R,C,8,order cards
+282,P04,WF-SCMS2-MCP-USER-22,R,R,3,print pdf file order
+283,P04,WF-SCMS2-MCP-USER-11,R,R,3,view orders progress
+284,P04,WF-SCMS2-MCP-USER-21,U,U,6,edit card
+285,P04,WF-SCMS2-MCP-USER-23,R|R|R,R,9,view historical orders
+286,P19,UC-A-1,U|U,U,12,define basic configuration system
+287,P19,UC-A-10,C|D|L|U,C|D|R|U,21,define distribution center
+288,P19,UC-A-11,L,L,7,assign warehouses distribution centers
+289,P19,UC-A-12,C|D|L|U,C|D|R|U,21,define role
+290,P19,UC-A-13,L,L,7,define user group
+291,P19,UC-A-14,L,L,7,assign users groups
+292,P19,UC-A-2,C|D|R|U,C|D|R|U,17,define available delivery methods
+293,P19,UC-A-3,C|D|R|U,C|D|R|U,17,define available payments methods
+294,P19,UC-A-4,C|CS|D|R|U,C|D|R|U,21,define available currencies
+295,P19,UC-A-5,AR|C|R|U,C|D|R|U,16,define e mail template
+296,P19,UC-A-6,U,U,9,translate static dynamic texts
+297,P19,UC-A-7,C|D|U|U,C|D|R|U,20,define category
+298,P19,UC-A-8,C|D|U,C|D|R|U,14,define attributes
+299,P19,UC-A-9,C|D|U,C|D|R|U,14,define warehouse
+300,P19,UC-AK-1,L,L,7,assign attributes category
+301,P19,UC-AK-2,L,L,7,assign products category
+302,P19,UC-K-1,DR|DR|L|R|R,L,20,issue order
+303,P19,UC-K-1.1,L|R|U,L,21,finalize issuing order
+304,P19,UC-K-2,DR|R|R,R,13,track progress order
+305,P19,UC-K-3,DR|R|R,R,11,view shipments
+306,P19,UC-K-4,DR|R|R,R,13,view invoices
+307,P19,UC-S-1,L,L,7,define product
+308,P19,UC-S-2,R|U,U,11,define attributes product
+309,P19,UC-S-3,CS|R,CS,10,define featured products
+310,P19,UC-S-4,L,L,8,define bindings products
+311,P19,UC-S-5,C|L,C,19,define promotion discount
+312,P19,UC-S-6,C|D|R|U,C|D|R|U,25,define inventory
+313,P19,UC-U-1,C|CS|R,C,11,register system
+314,P19,UC-U-2,CO,CO,3,log system
+315,P19,UC-U-3,AR,AR,4,remind password
+316,P19,UC-U-4,U,U,6,change account settings
+317,P20,AP_UC1,C|D|R|U,C|D|R|U,30,manage object crud
+318,P20,DPKZ_UC1,R,R,3,view employees data
+319,P20,DPKZ_UC2,U,U,6,edit employee data
+320,P20,DPKZ_UC3,DR,DR,5,browse irc logs
+321,P20,DPKZ_UC4,C|R,R,7,share fragment code
+322,P20,M_UC1,R,R,7,view employees metrics
+323,P20,ZGP_UC1,R,R,5,browse list notifications
+324,P20,ZGP_UC2,R|R,R,12,view report notifications
+325,P20,ZGP_UC3,C|CS,C,10,add effort entry
+326,P20,ZGP_UC4,DR|R|T,R,19,view effort entries
+327,P20,ZGP_UC5,DR|R|T,R,21,monitor employees effort
+328,P21,AC_UC1,R|R,R,10,read article
+329,P21,AC_UC2,R|R,R,8,view treatment
+330,P21,AC_UC3,R|R|R,R,12,view case study story
+331,P21,AC_UC4,R,R,7,read answers common questions
+332,P21,AC_UC5,R,R,3,view list references
+333,P21,AC_UC6,R,R,3,view glossary
+334,P21,AC_UC7,R,R,5,find local services
+335,P21,FD_UC1,C,C,3,provide feedback
+336,P21,MC_UC1,C|D|U,C|D|R|U,17,manage content
+337,P21,MC_UC3,C|D|R|U,C|D|R|U,16,manage know statements
+338,P21,MC_UC4,C|D|R|U,C|D|R|U,16,manage glossary terms
+339,P21,MC_UC5,C|D|R|U,C|D|R|U,16,manage questions answers
+340,P21,MC_UC6,C|D|R|U,C|D|R|U,16,manage local services
+341,P21,MC_UC7,C,C,6,translate cms object
+342,P21,MC_UC8,L,L,6,add reference cms object
+343,P21,PB_UC1,D|R|R,R,10,compile personal booklet
+344,P21,SC_UC1,CO|R,CO,6,check severity ed symptoms
+345,P21,YG_UC1,R,R,3,navigate content guide
+346,P21,YG_UC2,CS|CS,CS,8,determine type conditions
+347,P22,UC4k,R|R,R,6,view offer educational materials
+348,P22,UC5k,R,R,3,familiarize exemplary presentation
+349,P22,UC6k,R,R,5,familiarize exemplary test task
+350,P22,UC7k,CS,CS,8,purchase access teaching materials
+351,P22,UC8k,R|R,R,6,view opinions teaching materials
+352,P22,UC9k,C,C,4,add opinion teaching material
+353,P22,UC10k,U,U,6,edit previously entered opinion
+354,P22,UC11k,U,U,6,edit account data
+355,P22,UC12k,R|R,R,6,view purchased materials
+356,P22,UC13k,R,R,5,view statistics realized material
+357,P22,UC16k,AR,AR,5,send message contact form
+358,P22,UC17k,D,D,4,remove account
+359,P22,UC5a,C,C,3,add level offer teaching materials
+360,P22,UC6a,R,R,3,view offer topic
+361,P22,UC7a,D,D,4,delete level offer topic
+362,P22,UC8a,R|R,R,6,view users ' opinions
+363,P22,UC9a,D,D,4,remove user 's opinion
+364,P22,UC10a,CS,CS,4,approve user 's opinion
+365,P22,UC11a,R|R,R,10,view users ' payments
+366,P22,UC12a,R,R,5,print proforma invoice
+367,P22,UC22a,C,C,7,add new presentation test task
+368,P22,UC23a,D,D,10,delete presentation test task
+369,P22,UC24a,R,R,7,view list presentations test task
+370,P22,UC25a,L,L,9,assign presentation test task course
+371,P22,UC26a,R|R,R,6,view user details
+372,P23,UC1,C,C,6,create order system
+373,P23,UC2,C,C,3,add customer system
+374,P23,UC3,R|R,R,6,view list customers
+375,P23,UC4,U,U,6,edit customer
+376,P23,UC5,R|R,R,8,view list orders
+377,P23,UC6,U,U,9,edit order
+378,P23,UC7,R|R,R,8,check status order
+379,P23,UC8,U,U,9,fill data offer
+380,P23,UC10,CS,CS,4,change status order
+381,P24,UC1,C,C,5,add invoice
+382,P24,UC10,D,D,4,delete user account
+383,P24,UC2,DR,DR,4,search invoices
+384,P24,UC3,R,R,4,view invoice
+385,P24,UC4,R,R,6,download invoice
+386,P24,UC5,U,U,6,modify invoice
+387,P24,UC6,D,D,4,delete invoice
+388,P24,UC7,C,C,3,add user account
+389,P24,UC8,R,R,3,browse user accounts
+390,P24,UC9,U,U,6,modify user account
+391,P25,CP_UC_001,C|CS|R,C,11,add article
+392,P25,CP_UC_004,C|R,C,9,translate article
+393,P25,CP_UC_005,C|C|R|R,C,16,create market version paper
+394,P25,KI_UC_001,C,C,3,add new entry information catalogue
+395,P25,KI_UC_002,CS,CS,7,submit entry published
+396,P25,KI_UC_003,CS,CS,7,sent entry main administrator
+397,P25,KI_UC_004,CS,CS,6,accept entry published
+398,P25,ZU_UC_003,C|R,C,7,add users
+399,P25,ZU_UC_004,D|R|U,C|D|R|U,13,modify delete users
+400,P25,ZU_UC_005,L,L,9,assign permissions
+401,P27,OendwSB,CIA|CS|U|U,U,17,perform edit operation supply system b.
+402,P27,OeniwSA,CIA|U,U,9,perform edit operation index system a.
+403,P27,OenzwSA,CIA|CS|U,U,16,perform editing operation order system a.
+404,P27,RonizsSB,CIA,CIA,9,execute operation indices system b.
+405,P27,WiaondwSB,CS,CS,4,verify accept operation supply system b.
+406,P27,ZriwondSA,CIA|CIA|T|T,T,14,order execution verification operations supply system a.
+407,P27,ZriwonzSB,CIA|CIA|T|T,T,18,order execution verification operations orders system b.
+408,P27,ZroniSB,CIA|CIA|T|T,T,14,order execution operation indices system b.
+409,P27,PZ,R,R,5,preview orders
+410,P27,PiSA,R,R,3,preview index system a.
+411,P27,PdSA,R,R,3,preview supplies system a.
+412,P26,Ldm,CO|U,CO,11,log module
+413,P26,Pwd,C|D|D|R|R|R,C|D|R|U,21,view entered documents
+414,P26,Upr,C,C,4,create rescue file
+415,P26,Zd,CS|CS,CS,10,close day
+416,P26,Zdk,U,U,6,change accounting date
+417,P26,Zpb,C|D|DL|L|U,C|D|R|U,25,manage bank employees
+418,P26,Zpjkwm,C,C,3,register enterprise mass deposit customer
+419,P26,Zus,C|D|U,C|D|R|U,13,manage users system
+420,P26,Uzo,R,R,4,create summary operations
+421,P26,IOE,T,T,8,import electronic operations
+422,P26,WOP,C,C,6,enter paper operation
+423,P26,Psdwp,C,C,6,assign sub account mass deposit
+424,P26,ZwM,U|U,U,6,manage versions modules
+425,P26,Apps,C,C,6,process file system emergency mode
+426,P12,UC1,DR,DR,6,search documents
+427,P12,UC2,R,R,4,display details documents
+428,P12,UC3,R,R,5,download documents locally
+429,P12,UC4,T,T,6,save cloud
+430,P12,UC5,C,C,3,add document stash
+431,P12,UC6,R,R,3,display contents stash
+432,P12,UC7,D,D,3,delete elements stash
+433,P12,UC10,R,R,3,display list locally downloaded documents
+434,P12,UC11,R,R,4,display contents locally downloaded document
+435,P12,UC12,D,D,2,delete downloaded documents
+436,P12,UC13,AR,AR,6,share description document
