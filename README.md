@@ -1,4 +1,4 @@
-# Deep learning for approximating the COSMIC functional size based on use-case names
+# Deep learning model for approximating the COSMIC functional size based on use-case names
 
 This repository contains a replication package for the paper entitled "Deep learning model for end-to-end approximation of COSMIC functional size based on use-case names" submitted to the Information and Software Technology journal.
 
