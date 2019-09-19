@@ -20,7 +20,7 @@ We included the following files/folders in the replication package:
 - Try DEEP-COSMIC-UC on your use cases.ipynb - if you want to train and run the model for your use cases
 - paths.py - contains paths to folders
 - helpers.py - some reusable functions
-- /input/use-cases.csv - contains the names of use cases (after tokenization) and their COSMIC size
+- /input/use-cases.csv - contains the names of use cases (tokenized and cleared from stop words and some symbols) and their COSMIC size
 - /input/use-cases-uctype.csv - contains data required by AUCG and BN-UCGAIN to predict types of use cases
 - /input/verbs.csv - list of verbs in use-case names
 - /input/10-fold-train-full.csv - generated indices used for cross-validation (do not overwrite this file if you want to replicate the results)
