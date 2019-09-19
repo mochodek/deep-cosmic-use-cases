@@ -4,7 +4,7 @@ This repository contains a replication package for the paper entitled "Deep lear
 
 It contains a dataset of names of use cases and their functional size expressed in COSMIC. Due to confidentiality restrictions, we publish the names of use cases after tokenization (and removal of stop words). However, the replication package contains the code that was used to produce the dataset from the original data.
 
-In order to run the code you need the installation of Python 3 (with jupyter notebook) and R. You can find the dependencies in the notebooks. The most important are: numpy, pandas, sklearn, gensim, spacy, tensorflow, keras, matplotlib.
+In order to run the code you need the installation of Python 3 (with jupyter notebook) and R. You can find the dependencies in the notebooks. The most important are: numpy, pandas, sklearn, gensim, spacy, tensorflow, keras, matplotlib, talos.
 
 ## Pre-trained word embeddings
 
